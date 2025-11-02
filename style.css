@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: clamp(14px, 1vw + 1rem, 18px);
+  /* line-height: 1.6; */
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #1d1d1f;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  display: flex;
+  background-color: #f3fcf7;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 80px;
+}
+.logo {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #06c167;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0px 8px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1d1d1f;
+  font-weight: 400;
+  font-size: 1rem;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #06c167;
+  transition: 0.5s;
+}
+.menu-btn {
+  color: #06c167;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+#click {
+  display: none;
+}
+
+/* Hero Area Code starts here */
+.main-header {
+  width: 100%;
+  background-color: #f3fcf7;
+  margin-top: 40px;
+  /* max-width: 1580px; */
+  margin: auto;
+  display: flex;
+  padding: 0px 50px 0px 80px;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+.main-header-left {
+  flex-basis: 50%;
+  /* margin: 1.5%;  */
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.main-header-left > h1 {
+  font-weight: 600;
+  /* font-size: 75px; */
+  font-size: 3.5rem;
+  padding: 16px 8px;
+}
+.main-header-left > p {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 16px 8px;
+}
+.main-header-left > button {
+  background-color: #06c167;
+  padding: 15px 20px;
+  color: white;
+  border: 0.5px solid white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.main-header-left > button > i {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.main-header-right {
+  flex-basis: 50%;
+  text-align: center;
+}
+.main-header-right > img {
+  max-width: 468px;
+  max-height: 634px;
+  position: absolute;
+  right: 54px;
+  z-index: 1;
+}
+
+/* Floating Parts in Her area */
+.main-header-left > .quality {
+  display: flex;
+  position: absolute;
+  right: 32px;
+  top: 207px;
+  background-color: #ffffff;
+  border-radius: 35px;
+  z-index: 2;
+  padding: 10px;
+}
+.main-header-left > .quality > img {
+  width: 40px;
+  height: 40px;
+}
+.main-header-left > .quality > span {
+  margin: 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.main-header-left > .rating {
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  right: 385px;
+  background-color: #ffffff;
+  border-radius: 35px;
+  z-index: 2;
+}
+.rating-container {
+  display: flex;
+  padding: 20px;
+  width: 235px;
+  justify-content: space-between;
+}
+.dots {
+  font-size: 5px;
+  position: absolute;
+  z-index: 2;
+  right: 45px;
+  top: 456px;
+}
+.dots > table {
+  border-spacing: 8px;
+}
+.fa-star {
+  color: #06c167;
+}
+.fa-circle {
+  color: #f3fcf7;
+  width: 6px;
+  height: 6px;
+}
+
+/* brand section */
+#brand-logo {
+  display: flex;
+  width: 570px;
+  height: 35.84px;
+  margin-top: 50px;
+}
+.first-brand-logo {
+  width: 23.55;
+  height: 35.84;
+  opacity: 0.55;
+  top: 701px;
+  left: 142px;
+}
+
+.brand-image {
+  display: flex;
+  max-width: 570px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+.brand-image-part1 > div > img {
+  max-width: 7.9px;
+  max-height: 12.6px;
+}
+.brand-image-part1 > div > img:first-child {
+  max-width: 24px;
+  max-height: 36px;
+}
+.brand-image-part2 > div > img {
+  max-width: 7.9px;
+  max-height: 12.6px;
+}
+.brand-image-part2 > div > img:first-child {
+  max-width: 35px;
+  max-height: 30px;
+}
+.brand-image-part3 > div > img:first-child {
+  max-width: 34px;
+  max-height: 34px;
+}
+
+/* Section 2 starts here */
+#section-2 article hr {
+  padding: 0px 50px 0px 80px;
+  color: #707070;
+}
+
+#section-2 > .features {
+  margin-top: 50px 0px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 80px;
+  margin: 40px 0px;
+}
+.feature-container > div {
+  display: flex;
+  padding: 10px;
+}
+.feature-container > div > i {
+  color: #06c167;
+  font-size: 22px;
+  /* background-color: #f3fcf7; */
+}
+.feature-container > div > div {
+  padding-left: 20px;
+}
+.feature-container > div > div > h6 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.feature-container > div > div > p {
+  font-size: 12px;
+}
+
+/* Section3 code goes here */
+.benefit {
+  display: flex;
+  margin-top: 100px;
+}
+.benefit-left {
+  flex-basis: 40%;
+}
+.benefit-right {
+  flex-basis: 60%;
+}
+.benefit-left > div {
+  background-color: #f3fafb;
+}
+.benefit-left > div > img {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 15%;
+}
+.benefit-right {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.benefit-right > h1 {
+  font-weight: 500;
+  /* font-size: 75px; */
+  font-size: 3.3rem;
+  padding: 16px 8px;
+}
+.benefit-right > ul.tick-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+}
+.benefit-right > ul.tick-list li {
+  margin-bottom: 20px;
+}
+.benefit-right > ul.tick-list li i {
+  margin-right: 8px; /* Space between icon and text */
+  color: #06c167; /* Optional: style the tick mark color */
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Section-4 starts here */
+.stars {
+  display: flex;
+  margin-top: 100px;
+}
+.stars-left {
+  flex-basis: 60%;
+}
+.stars-left h1 {
+  font-weight: 500;
+  /* font-size: 75px; */
+  font-size: 3.3rem;
+  padding: 16px 8px;
+}
+
+.stars-left > .status {
+  display: flex;
+}
+.stars-left > .status > div {
+  padding: 20px;
+}
+.stars-left > .status > div > h2 {
+  color: #06c167;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.stars-left > .status > div > p {
+  padding-top: 10px;
+}
+.stars-left > button {
+  background-color: #06c167;
+  padding: 20px 20px;
+  color: white;
+  border: 0.5px solid white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.stars-left > button > i {
+  padding-left: 15px;
+  margin-right: 20px;
+}
+.stars-right {
+  flex-basis: 40%;
+}
+
+.stars-right > div {
+  background-color: #f3fafb;
+}
+.stars-right > div > img {
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 0;
+  margin-bottom: 15%;
+}
