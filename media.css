@@ -1,6 +1,6 @@
 /* Responisve code goes here */
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 756px) {
   nav ul {
     position: fixed;
     top: 80px;
@@ -41,38 +41,38 @@
     flex-direction: column;
   }
 
-  .main-header-left >.quality{
-  right: 100px;
-  top: 820px;
-  /* background-color: #FFFFFF;
+  .main-header-left > .quality {
+    right: 100px;
+    top: 820px;
+    /* background-color: #FFFFFF;
   border-radius: 35px;
   z-index: 2; */
-}
+  }
 
-  .main-header-left > .rating{
-  /* font-size: 15px;
+  .main-header-left > .rating {
+    /* font-size: 15px;
   font-weight: 500;
   position: absolute; */
-  top: 750px;
-  right: 100px;
-  /* background-color: #FFFFFF;
+    top: 750px;
+    right: 100px;
+    /* background-color: #FFFFFF;
   border-radius: 35px;
   z-index: 2; */
-}
-.dots{
-  z-index: 2;
-  right: 45px;
-  top: 700px;
-}
-.dots > table{
-   border-spacing: 8px;
-}
-.main-header-right{
-  text-align: center;
-}
-.main-header-right > img {
-  position: absolute;
-  max-width: 320px;
-  max-height: 469px; 
- }
+  }
+  .dots {
+    z-index: 2;
+    right: 45px;
+    top: 700px;
+  }
+  .dots > table {
+    border-spacing: 8px;
+  }
+  .main-header-right {
+    text-align: center;
+  }
+  .main-header-right > img {
+    position: absolute;
+    max-width: 320px;
+    max-height: 469px;
+  }
 }
